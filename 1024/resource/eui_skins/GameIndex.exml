@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameIndexSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16fe5a55ada" ></w:Config>
+	<e:Group id="group_main" width="750" height="1334" x="0" y="0">
+		<e:Rect id="rect_main" width="750" height="1334" x="0" y="0" fillColor="0xffffff"/>
+	</e:Group>
+</e:Skin>
