@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameIndexSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group_main" width="750" height="1334" x="0" y="0">
+		<e:Rect id="rect_main" width="750" height="1334" x="0" y="0" fillColor="0xffffff" strokeColor="0xffffff"/>
+		<e:Group width="750" height="952" x="0" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="26">
+			<e:Image source="head_png" x="0" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" width="750.13" anchorOffsetY="0" height="180.09" visible="false"/>
+			<e:Image source="head1_png" y="0" anchorOffsetX="0" width="720" anchorOffsetY="0" height="174.67" horizontalCenter="0"/>
+			<e:Label text="2048" x="54" y="19" textColor="0xf49f33" size="80" fontFamily="Arial" bold="true"/>
+			<e:Label text="合并数字直到出现2048！" x="44" y="119" textColor="0xe29191" anchorOffsetX="0" width="404" anchorOffsetY="0" height="42" verticalAlign="middle"/>
+			<e:Label id="label_score" text="0" x="458" y="57" anchorOffsetX="0" width="122" anchorOffsetY="0" height="44" verticalAlign="middle" textAlign="center"/>
+			<e:Label id="label_bestscore" text="0" x="594" y="67" anchorOffsetX="0" width="134" textAlign="center" verticalAlign="middle"/>
+			<e:Group id="group_numbers" width="720" height="720" y="191" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+				<e:Rect id="rect00" fillColor="0xb9b091" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" ellipseWidth="30" ellipseHeight="30"/>
+				<e:Rect id="rect01" width="155" height="155" x="20" y="20" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xccc0b2"/>
+				<e:Rect id="rect02" width="155" height="155" x="195" y="20" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2"/>
+				<e:Rect id="rect03" width="155" height="155" x="370" y="20" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2"/>
+				<e:Rect id="rect04" width="155" height="155" x="545" y="20" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2"/>
+				<e:Rect id="rect05" width="155" height="155" x="20" y="195" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2"/>
+				<e:Rect id="rect06" width="155" height="155" x="195" y="195" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2"/>
+				<e:Rect width="155" height="155" x="370" y="195" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2" id="rect07"/>
+				<e:Rect width="155" height="155" x="545" y="195" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2" id="rect08"/>
+				<e:Rect width="155" height="155" x="20" y="370" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2" id="rect09"/>
+				<e:Rect width="155" height="155" x="195" y="370" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2" id="rect10"/>
+				<e:Rect width="155" height="155" x="370" y="370" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2" id="rect11"/>
+				<e:Rect width="155" height="155" x="545" y="370" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2" id="rect12"/>
+				<e:Rect width="155" height="155" x="20" y="545" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2" id="rect13"/>
+				<e:Rect width="155" height="155" x="195" y="545" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2" id="rect14"/>
+				<e:Rect width="155" height="155" x="370" y="545" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2" id="rect15"/>
+				<e:Rect width="155" height="155" x="545" y="545" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xCCC0B2" id="rect16"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

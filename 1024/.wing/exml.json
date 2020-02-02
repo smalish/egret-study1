@@ -1,2 +1,12 @@
 {
+    "16ffa0c6117": {
+        "path": "../resource/game_skins/Index.ts",
+        "class": "Index",
+        "parentPath": ""
+    },
+    "16ffa0e146f": {
+        "path": "game/Index.ts",
+        "class": "Index",
+        "parentPath": ""
+    }
 }
